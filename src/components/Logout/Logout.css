@@ -1,0 +1,20 @@
+.Logout {
+  font-family: 'Fira Sans';
+  font-size: 1.3rem;
+  line-height: 5rem;
+  color: #FFF;
+}
+
+.Logout button {
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.Logout button:hover {
+  color: #48DAD0;
+}
+

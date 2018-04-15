@@ -1,0 +1,22 @@
+.Notification {
+  align-items: center;
+  background-color: #FFF;
+  color: #272D37;
+  display: flex;
+  font-family: 'Fira Sans';
+  font-size: 1.5rem;
+  justify-content: center;
+  min-height: 5rem;
+  width: 32rem;
+  border-radius: 0.2rem;
+}
+
+.Notification.error {
+  background-color: #D35566;
+  color: #FFF;
+}
+
+.Notification.success {
+  background-color: #48DAD0;
+  color: #3F454D;
+}

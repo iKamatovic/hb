@@ -1,0 +1,21 @@
+.Thumbnail {
+  background-color: #E7E7E8;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: calc(100% - 1rem);
+  animation: fadein 2s;
+}
+
+.Thumbnail img {
+  border-radius: 0.2rem;
+  display: block;
+  width: 100%;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

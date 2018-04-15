@@ -1,0 +1,30 @@
+.Input {
+  background-color: #272D37;
+  border-radius: 0.1rem;
+  border: none;
+  color: #FFF;
+  font-family: 'Fira Sans';
+  font-size: 1.6rem;
+  height: 4rem;
+  line-height: 2rem;
+  outline: none;
+  padding: 0 1rem;
+  width: 26rem;
+}
+
+.Input::placeholder {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Input.medium {
+  width: 14rem;
+}
+
+.Input.large {
+  width: 28rem;
+}
+
+.Input.full {
+  width: 100%;
+}

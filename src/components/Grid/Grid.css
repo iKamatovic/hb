@@ -1,0 +1,13 @@
+.Grid {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  column-count: 3;
+  grid-gap: 1rem;
+  column-fill: auto;
+}
+
+@media (min-width : 320px) and (max-width : 480px)  {
+  .Grid {
+    column-count: 2;
+  }
+}

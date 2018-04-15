@@ -1,0 +1,93 @@
+.Button {
+  background-color: #48DAD0;
+  border-radius: 0.1rem;
+  border: none;
+  color: #3F454D;
+  cursor: pointer;
+  font-family: 'Fira Sans';
+  font-size: 1.6rem;
+  height: 4rem;
+  line-height: 2rem;
+  outline: none;
+  text-align: center;
+  width: 28rem;
+}
+
+.Button.small {
+  width: 7rem;
+}
+
+.Button.medium {
+  width: 14rem;
+}
+
+.Button.large {
+  width: 28rem;
+}
+
+.Button.full {
+  width: 100%;
+}
+
+.Button.aqua {
+  background-color: #48DAD0;
+  color: #3F454D;
+}
+
+.Button.aqua:hover {
+  background-color: #76E3DC;
+}
+
+.Button.darkBlue {
+  background-color: #2E468F;
+  color: #FFF;
+}
+
+.Button.darkBlue:hover {
+  background-color: #3F59A7;
+}
+
+.Button.lightBlue {
+  background-color: #3A7BDB;
+  color: #FFF;
+}
+
+.Button.lightBlue:hover {
+  background-color: #52A3DB;
+}
+
+.Button.darkRed {
+  background-color: #C41C33;
+  color: #FFF;
+}
+
+.Button.darkRed:hover {
+  background-color: #D35566;
+}
+
+.Button.lightRed {
+  background-color: #D35566;
+  color: #FFF;
+}
+
+.Button.lightRed:hover {
+  background-color: #E18D99;
+}
+
+.Button.darkGray {
+  background-color: #272D37;
+  color: #48DAD0;
+}
+
+.Button.darkGray:hover {
+  background-color: #3F454D;
+}
+
+.Button.lightGray {
+  background-color: #B7B9BC;
+  color: #3F454D;
+}
+
+.Button.lightGray:hover {
+  background-color: #CFD0D3;
+}

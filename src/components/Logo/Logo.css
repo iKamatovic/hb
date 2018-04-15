@@ -1,0 +1,15 @@
+.Logo {
+  opacity: 0.2;
+}
+
+.Logo.small {
+  width: 6rem;
+}
+
+.Logo.medium {
+  width: 10rem;
+}
+
+.Logo.large {
+  width: 14rem;
+}
